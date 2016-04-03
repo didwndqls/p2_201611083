@@ -1,0 +1,14 @@
+start
+:Define Scissor=1, Rock=0 and Paper=-1
+Define result= (A player) - (B player);
+:A player input Rock, Scissor or Paper 
+B player input Rock, Scissor or Paper;
+if (result = 0) then(yes)
+  :darw; 
+elseif (result = 2 or -1) then(yes)
+  :A player is win!;
+elseif (result = -2 or 1) then(yes)
+  :B player is win!;
+endif
+:print "who is win or draw";
+stop
