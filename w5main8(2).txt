@@ -1,0 +1,14 @@
+start
+:please enter your weight(kg):
+please enter your height(m):;
+:BMI=weight/(height*height);
+if (BMI<=18.5)
+:lower weight;
+elseif (18.5<BMI<25.0)
+:normal weight;
+elseif (25.0<=BMI<30.0)
+:over weight;
+elseif (30.0<=BMI)
+:obesity;
+endif
+stop
